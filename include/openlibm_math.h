@@ -156,7 +156,7 @@ extern const union __nan_un {
 /*
  * XOPEN/SVID
  */
-#if __BSD_VISIBLE || __XSI_VISIBLE
+// #if __BSD_VISIBLE || __XSI_VISIBLE
 #define	M_E		2.7182818284590452354	/* e */
 #define	M_LOG2E		1.4426950408889634074	/* log 2e */
 #define	M_LOG10E	0.43429448190325182765	/* log 10e */
@@ -176,7 +176,7 @@ extern const union __nan_un {
 #ifndef OPENLIBM_ONLY_THREAD_SAFE
 extern int signgam;
 #endif
-#endif /* __BSD_VISIBLE || __XSI_VISIBLE */
+// #endif /* __BSD_VISIBLE || __XSI_VISIBLE */
 
 #if __BSD_VISIBLE
 #if 0
